@@ -6,6 +6,7 @@ Release:	1
 License:	BSD
 Group:		Networking/Utilities
 Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
+# Source0-md5:	0e09e2f0d939c5abd990dbf60a5350c2
 URL:		http://www.pldaniels.com/ripmime/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
