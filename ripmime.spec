@@ -1,7 +1,7 @@
 Summary:	ripMIME extract the attached files out of a MIME encoded email package
 Summary(pl):	Narzêdzie wyci±gaj±ce za³±czniki z wiadomo¶ci kodowanych MIME
 Name:		ripmime
-Version:	1.2.16.9
+Version:	1.2.16.11
 Release:	1
 License:	BSD
 Group:		Networking/Utilities
@@ -24,7 +24,7 @@ do³±czonych do wiadomo¶ci kodowanych MIME.
 %setup  -q
 
 %build
-%{__make} CC=%{__cc} CFLAGS="%{rpmcflags}" ripmime
+%{__make} CC=%{__cc} CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
