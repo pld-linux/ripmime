@@ -1,7 +1,7 @@
 Summary:	ripMIME extract the attached files out of a MIME encoded email package
 Summary(pl):	Narzêdzie wyci±gaj±ce za³±czniki z wiadomo¶ci kodowanych MIME
 Name:		ripmime
-Version:	1.2.16.12
+Version:	1.2.16.14
 Release:	1
 License:	BSD
 Group:		Networking/Utilities
@@ -32,12 +32,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 install ripmime	$RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf CHANGELOG INSTALL LICENSE README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc CHANGELOG INSTALL LICENSE README
 %attr(755,root,root) %{_bindir}/*
