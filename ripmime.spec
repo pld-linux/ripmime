@@ -26,7 +26,7 @@ do³±czonych do wiadomo¶ci kodowanych MIME.
 
 %build
 %{__make} \
-	CC=%{__cc} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -I.."
 
 %install
