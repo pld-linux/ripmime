@@ -1,12 +1,12 @@
 Summary:	ripMIME extract the attached files out of a MIME encoded email package
 Summary(pl):	Narzêdzie wyci±gaj±ce za³±czniki z wiadomo¶ci kodowanych MIME
 Name:		ripmime
-Version:	1.3.0.4
+Version:	1.3.0.5
 Release:	1
 License:	BSD
 Group:		Networking/Utilities
 Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
-# Source0-md5:	4ec1a5bd9d8a47f68697411e9628107f
+# Source0-md5:	525c036a3cd2d8ccd62328d27c3d4c37
 URL:		http://www.pldaniels.com/ripmime/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
