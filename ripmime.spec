@@ -25,7 +25,9 @@ do³±czonych do wiadomo¶ci kodowanych MIME.
 %setup  -q
 
 %build
-%{__make} CC=%{__cc} CFLAGS="%{rpmcflags} -I.."
+%{__make} \
+	CC=%{__cc} \
+	CFLAGS="%{rpmcflags} -I.."
 
 %install
 rm -rf $RPM_BUILD_ROOT
