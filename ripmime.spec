@@ -5,10 +5,21 @@ Version:	1.2.12
 Release:	1
 License:	BSD
 Group:		Networking/Utilities
-Group(de):	Netzwerkwesen/Werkzeuge
+Group(cs):	Sí»ové/Utility
+Group(da):	Netværks/Værktøj
+Group(de):	Netzwerkwesen/Dienstprogramme
 Group(es):	Red/Utilitarios
+Group(fr):	Réseau/Utilitaires
+Group(is):	Net/Tól
+Group(it):	Rete/Utility
+Group(no):	Nettverks/Verktøy
 Group(pl):	Sieciowe/Narzêdzia
 Group(pt_BR):	Rede/Utilitários
+Group(pt):	Rede/Utilidades
+Group(ru):	óÅÔØ/õÔÉÌÉÔÙ
+Group(sl):	Omre¾ni/Pripomoèki
+Group(sv):	Nätverk/Verktyg
+Group(uk):	íÅÒÅÖÁ/õÔÉÌ¦ÔÉ
 Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
 URL:		http://www.pldaniels.com/ripmime/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
