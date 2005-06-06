@@ -2,7 +2,7 @@ Summary:	ripMIME extract the attached files out of a MIME encoded email package
 Summary(pl):	Narzêdzie wyci±gaj±ce za³±czniki z wiadomo¶ci kodowanych MIME
 Name:		ripmime
 Version:	1.4.0.3
-Release:	1
+Release:	2
 License:	BSD
 Group:		Networking/Utilities
 Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
@@ -23,6 +23,7 @@ do³±czonych do wiadomo¶ci kodowanych MIME.
 
 %prep
 %setup  -q
+%{__sed} -i -e '6s,ripMIME,ripmime,g' ripmime.1
 
 %build
 %{__make} \
@@ -31,9 +32,10 @@ do³±czonych do wiadomo¶ci kodowanych MIME.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-install ripmime	$RPM_BUILD_ROOT%{_bindir}
+install ripmime $RPM_BUILD_ROOT%{_bindir}
+install ripmime.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -42,3 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG INSTALL LICENSE README
 %attr(755,root,root) %{_bindir}/*
+%{_mandir}/man1/ripmime.1*
