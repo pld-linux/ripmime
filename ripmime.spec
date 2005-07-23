@@ -8,6 +8,7 @@ Group:		Networking/Utilities
 Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
 # Source0-md5:	62fb998da33b93cd9910c4a819e9b874
 URL:		http://www.pldaniels.com/ripmime/
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
