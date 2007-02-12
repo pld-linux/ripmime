@@ -1,5 +1,5 @@
 Summary:	ripMIME extract the attached files out of a MIME encoded email package
-Summary(pl):	Narzêdzie wyci±gaj±ce za³±czniki z wiadomo¶ci kodowanych MIME
+Summary(pl.UTF-8):   NarzÄ™dzie wyciÄ…gajÄ…ce zaÅ‚Ä…czniki z wiadomoÅ›ci kodowanych MIME
 Name:		ripmime
 Version:	1.4.0.3
 Release:	2
@@ -17,10 +17,10 @@ commercial Xamime development (http://www.xamime.com/). ripMIME has
 been written with one sole purpose in mind, to extract the attached
 files out of a MIME encoded email package.
 
-%description -l pl
-ripMIME to ma³y program stworzony jako czê¶æ komercyjnego Xamime
-(http://www.xamime.com/). ripMIME s³u¿y do wyci±gania plików
-do³±czonych do wiadomo¶ci kodowanych MIME.
+%description -l pl.UTF-8
+ripMIME to maÅ‚y program stworzony jako czÄ™Å›Ä‡ komercyjnego Xamime
+(http://www.xamime.com/). ripMIME sÅ‚uÅ¼y do wyciÄ…gania plikÃ³w
+doÅ‚Ä…czonych do wiadomoÅ›ci kodowanych MIME.
 
 %prep
 %setup  -q
