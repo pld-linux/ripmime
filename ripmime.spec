@@ -1,12 +1,12 @@
 Summary:	ripMIME extract the attached files out of a MIME encoded email package
 Summary(pl.UTF-8):	Narzędzie wyciągające załączniki z wiadomości kodowanych MIME
 Name:		ripmime
-Version:	1.4.0.9
+Version:	1.4.0.10
 Release:	1
 License:	BSD
 Group:		Networking/Utilities
 Source0:	http://www.pldaniels.com/ripmime/%{name}-%{version}.tar.gz
-# Source0-md5:	25761b8a533bc935f75902724fb73244
+# Source0-md5:	bb0844b0e73625ef79206d3fe620716e
 URL:		http://www.pldaniels.com/ripmime/
 BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
